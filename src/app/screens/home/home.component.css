@@ -1,0 +1,126 @@
+/* wrt = write/escrita  --   caixa = retangulos da home  */
+
+.LogoImpercap {
+
+    width: 152px; 
+    height: 76px; 
+    left: 119px; 
+    top: 70px; 
+    position: absolute
+
+}
+
+.caixa-estoque{
+
+    width: 147px; 
+    height: 86px;
+    left: 26px;
+    top: 234px; 
+    position: absolute; 
+    background: #5077B8; 
+    box-shadow: 0px 4px 4px
+     #A8B1C0;
+    border-radius:10px;
+
+}
+
+.caixa-financeiro{
+
+    width: 147px; 
+    height: 86px; 
+    left: 26px; 
+    top: 387px; 
+    position: absolute; 
+    background: #5077B8; 
+    box-shadow: 0px 4px 4px #A8B1C0; 
+    border-radius: 10px
+
+}
+
+.caixa-ordems {
+
+    width: 147px; 
+    height: 86px; 
+    left: 215px; 
+    top: 387px; 
+    position: absolute; 
+    background: #5077B8; 
+    box-shadow: 0px 4px 4px #A8B1C0; 
+    border-radius: 10px
+
+}
+
+.caixa-clientes {
+
+    width: 147px; 
+    height: 86px; 
+    left: 215px; 
+    top: 234px; 
+    position: absolute; 
+    background: #5077B8; 
+    box-shadow: 0px 4px 4px #A8B1C0; 
+    border-radius: 10px
+
+}
+
+.wrt-ordem {
+
+    width: 89px; 
+    height: 28px; 
+    left: 244px; 
+    top: 260px; 
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+}
+
+.wrt-estoque {
+
+    width: 64px; 
+    height: 14px; 
+    left: 67px; 
+    top: 267px; 
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+}
+
+.wrt-financeiro {
+
+    width: 81px; 
+    height: 14px; 
+    left: 59px; 
+    top: 420px; 
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+}
+
+.wrt-clientes {
+
+   width: 81px; 
+   height: 14px; 
+   left: 248px; 
+   top: 420px; 
+   position: absolute; 
+   text-align: center; 
+   color: white; 
+   font-size: 14px; 
+   font-family: Montserrat; 
+   font-weight: 800; 
+   word-wrap: break-word
+
+}

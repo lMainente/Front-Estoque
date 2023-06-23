@@ -1,0 +1,175 @@
+
+.logo-impercap {
+
+   width: 152px; 
+   height: 76px; 
+   left: 119px; 
+   top: 70px; 
+   position: absolute
+
+}
+
+.wrap-listagem {
+
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: #F5F5F5
+
+}
+
+.caixa-pesquisa {
+
+    width: 368px; 
+    height: 100px; 
+    left: 11px; 
+    top: 280px; 
+    position: absolute; 
+    background: black; 
+    border-radius: 10px
+
+}
+
+.caixa-pesquisa1 {
+
+    width: 340px; 
+    height: 35px; 
+    left: 25px; 
+    top: 290px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 9px
+
+}
+
+.btn-pesquisar {
+
+    width: 78px; 
+    height: 35px; 
+    left: 285px; 
+    top: 290px; 
+    position: absolute; 
+    background: white; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 9px
+
+}
+
+.wrt-pesquisar{
+
+    left: 298px; 
+    top: 300px; 
+    position: absolute; 
+    color: black; 
+    font-size: 12px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+
+}
+
+.wrt-nome {
+
+    width: 50px; 
+    height: 16px; 
+    left: 42px; 
+    top: 355px; 
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800;
+    word-wrap: break-word
+
+}
+
+.wrt-qtd{
+
+    width: 50px; 
+    height: 16px; 
+    left: 299px; 
+    top: 355px; 
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+}
+
+.nome-material{
+
+    width: 156px; 
+    left: 17px; 
+    top: 395px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+}
+
+.qtd-material{
+
+    width: 23px; 
+    left: 315px; 
+    top: 395px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+}
+
+.separador {
+
+    width: 357px; 
+    height: 0px; 
+    left: 17px; 
+    top: 427px; 
+    position: absolute; 
+    border: 0.50px #DEDEDE solid
+
+}
+
+.titulo-selecionar{
+
+    width: 181px; 
+    height: 14px; 
+    left: 20px; 
+    top: 155px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+}
+
+.titulo-listagem {
+
+    width: 70px; 
+    height: 19px; 
+    left: 43px; 
+    top: 231px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+}
+
