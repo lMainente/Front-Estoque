@@ -117,3 +117,172 @@
     border-bottom: 0.50px #BDBDBD solid
 
 }
+
+.wrt-detalhes {
+
+    width: 84px; 
+    left: 62px; 
+    top: 311px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+}
+
+.input-detalhes{
+
+    width: 285px; 
+    height: 35px; 
+    left: 44px; 
+    top: 345px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 10px; 
+    border-left: 0.50px #BDBDBD solid; 
+    border-top: 0.50px #BDBDBD solid; 
+    border-right: 0.50px #BDBDBD solid; 
+    border-bottom: 0.50px #BDBDBD solid
+
+}
+
+.check-pisc{
+
+    width: 26px; 
+    height: 26px; 
+    left: 81px; 
+    top: 544px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 10px
+
+}
+
+.check-saun{
+
+    width: 26px; 
+    height: 26px; 
+    left: 81px; 
+    top: 588px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 10px
+
+}
+
+.check-outr{
+
+    width: 26px; 
+    height: 26px; 
+    left: 81px; 
+    top: 632px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 10px
+
+}
+
+.wrt-outros{
+
+   width: 62px; 
+   height: 14px; 
+   left: 117px; 
+   top: 635px; 
+   position: absolute; 
+   color: black; 
+   font-size: 14px; 
+   font-family: Montserrat; 
+   font-weight: 600; 
+   word-wrap: break-word
+
+}
+
+.wrt-saunas{
+
+    width: 62px; 
+    height: 14px; 
+    left: 117px; 
+    top: 591px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    word-wrap: break-word
+
+}
+
+.wrt-destaque {
+
+    width: 168px; 
+    height: 14px; 
+    left: 83px; 
+    top: 718px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    word-wrap: break-word
+
+}
+
+.wrt-piscinas{
+
+    width: 62px; 
+    height: 14px; 
+    left: 117px; 
+    top: 547px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    word-wrap: break-word
+
+}
+
+.check-dest{
+
+   width: 26px; 
+   height: 26px; 
+   left: 46px; 
+   top: 715px; 
+   position: absolute; 
+   background: #D9D9D9; 
+   border-radius: 10px
+
+}
+
+.btn-atualizar{
+
+    width: 211px; 
+    height: 39px; 
+    left: 81px; 
+    top: 775px; 
+    position: absolute; 
+    background: white; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 10px; 
+    border-left: 0.50px black solid; 
+    border-top: 0.50px black solid; 
+    border-right: 0.50px black solid; 
+    border-bottom: 0.50px black solid
+
+}
+
+.wrt-btn {
+
+    left: 143px; 
+    top: 786px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+}

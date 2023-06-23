@@ -1,0 +1,131 @@
+.wrap-gdestaque{
+
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: #F5F5F5
+
+}
+
+.logo-impercap{
+
+    width: 45%; 
+    height: 6rem; 
+    left: 30%; 
+    top: 46px; 
+    position: absolute 
+   
+
+}
+
+.wrt-gdestaque{
+
+    width: 181px; 
+    height: 14px; 
+    left: 20px; 
+    top: 155px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+}
+
+.wrt-addm{
+
+    width: 181px; 
+    height: 14px; 
+    left: 41px; 
+    top: 226px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+}
+
+.wrt-modulos{
+
+    width: 206px; 
+    height: 14px; 
+    left: 48px; 
+    top: 346px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+}
+
+.check-destaque{
+
+    width: 285px; 
+    height: 35px; 
+    left: 41px; 
+    top: 381px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 10px; 
+    border-left: 0.50px #BDBDBD solid; 
+    border-top: 0.50px #BDBDBD solid; 
+    border-right: 0.50px #BDBDBD solid; 
+    border-bottom: 0.50px #BDBDBD solid
+
+}
+
+.add-modulo{
+
+    width: 285px; 
+    height: 35px; 
+    left: 41px; 
+    top: 271px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 10px; 
+    border-left: 0.50px #BDBDBD solid; 
+    border-top: 0.50px #BDBDBD solid; 
+    border-right: 0.50px #BDBDBD solid; 
+    border-bottom: 0.50px #BDBDBD solid
+
+}
+
+.btn-att{
+
+    width: 211px; 
+    height: 39px; 
+    left: 79px; 
+    top: 685px; 
+    position: absolute; 
+    background: white; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 10px; 
+    border-left: 0.50px black solid; 
+    border-top: 0.50px black solid; 
+    border-right: 0.50px black solid; 
+    border-bottom: 0.50px black solid
+
+}
+
+.wrt-btn{
+
+    left: 141px; 
+    top: 696px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+
+}
