@@ -1,22 +1,25 @@
 <div class="wrap-listagem">
-    <img class="logo-impercap" src="../../../assets/logo-impercap.png" />
-
+        <img class="logo-impercap" src="../../../assets/logo-impercap.png" />
     
-    <div class="titulo-selecionar" >SELECIONAR PRODUTO</div>
-    <div class="titulo-listagem" >Listagem</div>       
-     
-            <!-- caixas de pesquisar + descrição lista -->
-    <div class="caixa-pesquisa" ></div>
-    <div class="caixa-pesquisa1"></div>
-    <div class="btn-pesquisar"></div>
-            
-    <div class="wrt-pesquisar" >Pesquisar</div>
-    <div class="wrt-nome" >NOME</div>
-    <div class="wrt-qtd" >QTD<br/></div>
-
-    <div class="nome-material" >Mangote 1 1/4 7cm</div>
-    <div class="qtd-material">7</div>
-    <div class="separador"></div>
-
-  
-  </div>
+        
+        <div class="titulo-selecionar" >SELECIONAR PRODUTO</div>
+        <div class="titulo-listagem" >Listagem</div>       
+         
+                <!-- caixas de pesquisar + descrição lista -->
+        <div class="caixa-pesquisa" ></div>
+        <div class="caixa-pesquisa1"></div>
+        <div class="btn-pesquisar"></div>
+                
+        <div class="wrt-pesquisar" >Pesquisar</div>
+        <div class="wrt-nome" >NOME</div>
+        <div class="wrt-qtd" >QTD<br/></div>
+    
+        <div *ngFor="let item of itensEstoque" class="item-row">
+                <div class="nome-material">{{ item.Nome }}</div>
+                <div class="qtd-material">{{ item.Quantidade }}</div>
+                <div class="separador"></div>
+        </div>
+        
+    
+      
+      </div>

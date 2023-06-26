@@ -10,6 +10,9 @@ import { AdicionarProdutoComponent } from './screens/estoque/adicionar-produto/a
 import { ListagemProdutosComponent } from './screens/estoque/listagem-produtos/listagem-produtos.component';
 import { EditarProdutosComponent } from './screens/estoque/editar-produtos/editar-produtos.component';
 import { EditarDestaquesComponent } from './screens/estoque/editar-destaques/editar-destaques.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -25,6 +28,9 @@ import { EditarDestaquesComponent } from './screens/estoque/editar-destaques/edi
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
+   
   
   ],
   providers: [],

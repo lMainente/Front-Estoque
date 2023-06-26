@@ -1,33 +1,42 @@
 <div class="wrap-addpedido">
-
-  <img class="logo-impercap"src="../../../../assets/logo-impercap.png"/>
+  <img class="logo-impercap" src="../../../../assets/logo-impercap.png"/>
   
   <div class="titulo-editprdt">ADICIONAR PRODUTO</div>
   <div class="separador"></div>
 
-  <div class="wrt-nome" >NOME</div>
-  <input class="input-nome">
+  <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+    <div class="wrt-nome">NOME</div>
+    <input class="input-nome" formControlName="Nome">
+    <div class="error-message" *ngIf="productForm.get('Nome')?.invalid && productForm.get('Nome')?.touched">
+      Este campo é obrigatório
+    </div>
 
-  <div class="wrt-valor">VALOR UNITARIO</div>
-  <input class="input-valor">
+    <div class="wrt-valor">VALOR UNITARIO</div>
+    <input class="input-valor" formControlName="Preco">
+    <div class="error-message" *ngIf="productForm.get('Preco')?.invalid && productForm.get('Preco')?.touched">
+      Este campo é obrigatório
+    </div>
 
-  <div class="wrt-detalhes">DETALHES</div>
-  <input class="input-detalhes">
+    <div class="wrt-detalhes">DETALHES</div>
+    <input class="input-detalhes" formControlName="Descricao">
+    <div class="error-message" *ngIf="productForm.get('Descricao')?.invalid && productForm.get('Descricao')?.touched">
+      Este campo é obrigatório
+    </div>
 
-  <div class="wrt-dpto">DEPARTAMENTO</div>
-      <input class="check-pisc" type="checkbox" >
-      <input class="check-saun" type="checkbox" >
-      <input class="check-outr" type="checkbox" >
+    <div class="wrt-dpto">DEPARTAMENTO</div>
+    <input class="check-pisc" type="checkbox" formControlName="Piscinas">
+    <input class="check-saun" type="checkbox" formControlName="Saunas">
+    <input class="check-outr" type="checkbox" formControlName="Outros">
       
-  <div class="wrt-piscinas" >Piscinas</div>
-  <div class="wrt-saunas" >Saunas</div>
-  <div class="wrt-outros">Outros</div>
+    <div class="wrt-piscinas">Piscinas</div>
+    <div class="wrt-saunas">Saunas</div>
+    <div class="wrt-outros">Outros</div>
   
-  <div class="wrt-destaque" >Adicionar Ao Destaque</div>
-  <input class="check-dest" type="checkbox">
+    <div class="wrt-destaque">Adicionar Ao Destaque</div>
+    <input class="check-dest" type="checkbox" formControlName="Destaque">
  
-  <div class="btn-atualizar" routerLink="/listagemProdutos"></div>
-  <div class="wrt-btn">ADICIONAR</div>
-  
- 
+    <button type="submit" class="btn-atualizar">
+      <div class="wrt-btn">ADICIONAR</div>
+    </button>
+  </form>
 </div>

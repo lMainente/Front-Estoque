@@ -22,7 +22,7 @@ const routes: Routes = [
   {path:"AdicionarProduto",
     component: AdicionarProdutoComponent},
     
-  {path:"listagemProdutos",
+  {path:"listagemProdutosPiscina",
     component: ListagemProdutosComponent},
   
   {path:"editarProdutos",
