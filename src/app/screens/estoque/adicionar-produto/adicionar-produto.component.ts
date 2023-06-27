@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
+import { RouterLink, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-adicionar-produto',
@@ -18,6 +19,7 @@ export class AdicionarProdutoComponent {
       Nome: ['', Validators.required],
       Preco: ['', Validators.required],
       Descricao: ['', Validators.required],
+      Quantidade: ['', Validators.required],
       Piscinas: [false],
       Saunas: [false],
       Outros: [false],
@@ -32,18 +34,18 @@ export class AdicionarProdutoComponent {
         Categoria: this.getCategoriaSelecionada(),
         Preco: this.productForm.value.Preco,
         Descricao: this.productForm.value.Descricao,
-        Quantidade: 10
+        Quantidade: this.productForm.value.Quantidade
       };
 
       this.http.post('http://localhost:8000/api/itens-estoque', formData)
         .subscribe(
           response => {
             console.log('Produto criado com sucesso:', response);
-            // Realize as ações necessárias após o envio do formulário com sucesso
-          },
+              
+            },
           error => {
             console.error('Erro ao criar produto:', error);
-            // Realize as ações necessárias em caso de erro
+          
           }
         );
     } else {

@@ -10,6 +10,8 @@ import { EditarDestaquesComponent } from './screens/estoque/editar-destaques/edi
 
 const routes: Routes = [
 
+  {path: '' , component: HomeComponent},
+
   {path:"home",
     component: HomeComponent},
 
@@ -29,8 +31,12 @@ const routes: Routes = [
     component: EditarProdutosComponent}, 
     
   {path:"gerenciarDestaques",
-    component: EditarDestaquesComponent,}   
+    component: EditarDestaquesComponent,},
+   
+  {path: 'editarProdutos/:categoria/:id', 
+  component: EditarProdutosComponent,},  
     
+
 
 ];
 

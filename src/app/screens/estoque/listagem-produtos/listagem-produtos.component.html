@@ -15,7 +15,7 @@
         <div class="wrt-qtd" >QTD<br/></div>
     
         <div *ngFor="let item of itensEstoque" class="item-row">
-                <div class="nome-material">{{ item.Nome }}</div>
+                <div class="nome-material" [routerLink]="'/editarProdutos/' + item.Categoria + '/' + item.ID">{{ item.Nome }}</div>
                 <div class="qtd-material">{{ item.Quantidade }}</div>
                 <div class="separador"></div>
         </div>

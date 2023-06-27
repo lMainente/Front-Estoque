@@ -17,6 +17,12 @@
       Este campo é obrigatório
     </div>
 
+    <div class="wrt-qtd">QUANTIDADE</div>
+    <input class="input-qtd" formControlName="Quantidade">
+    <div class="error-message" *ngIf="productForm.get('Quantidade')?.invalid && productForm.get('Quantidade')?.touched">
+      Este campo é obrigatório
+    </div>
+
     <div class="wrt-detalhes">DETALHES</div>
     <input class="input-detalhes" formControlName="Descricao">
     <div class="error-message" *ngIf="productForm.get('Descricao')?.invalid && productForm.get('Descricao')?.touched">

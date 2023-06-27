@@ -91,7 +91,7 @@
 .wrt-dpto{
 
     left: 62px; 
-    top: 508px; 
+    top: 570px; 
     position: absolute; 
     text-align: center; 
     color: black; 
@@ -153,7 +153,7 @@
     width: 26px; 
     height: 26px; 
     left: 81px; 
-    top: 544px; 
+    top: 600px; 
     position: absolute; 
     background: #D9D9D9; 
     border-radius: 10px
@@ -165,7 +165,7 @@
     width: 26px; 
     height: 26px; 
     left: 81px; 
-    top: 588px; 
+    top: 640px; 
     position: absolute; 
     background: #D9D9D9; 
     border-radius: 10px
@@ -177,7 +177,7 @@
     width: 26px; 
     height: 26px; 
     left: 81px; 
-    top: 632px; 
+    top: 680px; 
     position: absolute; 
     background: #D9D9D9; 
     border-radius: 10px
@@ -189,7 +189,7 @@
    width: 62px; 
    height: 14px; 
    left: 117px; 
-   top: 635px; 
+   top: 689px; 
    position: absolute; 
    color: black; 
    font-size: 14px; 
@@ -204,7 +204,7 @@
     width: 62px; 
     height: 14px; 
     left: 117px; 
-    top: 591px; 
+    top: 649px; 
     position: absolute; 
     color: black; 
     font-size: 14px; 
@@ -219,7 +219,7 @@
     width: 168px; 
     height: 14px; 
     left: 83px; 
-    top: 718px; 
+    top: 730px; 
     position: absolute; 
     color: black; 
     font-size: 14px; 
@@ -234,7 +234,7 @@
     width: 62px; 
     height: 14px; 
     left: 117px; 
-    top: 547px; 
+    top: 609px; 
     position: absolute; 
     color: black; 
     font-size: 14px; 
@@ -249,7 +249,7 @@
    width: 26px; 
    height: 26px; 
    left: 46px; 
-   top: 715px; 
+   top: 725px; 
    position: absolute; 
    background: #D9D9D9; 
    border-radius: 10px
@@ -277,6 +277,35 @@
 
     left: 143px; 
     top: 786px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 800; 
+    word-wrap: break-word
+
+}
+
+.input-qtd {
+
+    width: 285px; 
+    height: 35px; 
+    left: 44px; 
+    top: 520px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 10px; 
+    border-left: 0.50px #BDBDBD solid; 
+    border-top: 0.50px #BDBDBD solid; 
+    border-right: 0.50px #BDBDBD solid; 
+    border-bottom: 0.50px #BDBDBD solid
+
+}
+.wrt-qtd{
+
+    left: 62px; 
+    top: 495px; 
     position: absolute; 
     text-align: center; 
     color: black; 
